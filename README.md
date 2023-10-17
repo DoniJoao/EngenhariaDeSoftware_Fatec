@@ -2,18 +2,17 @@
 Repositorio destinado a entrega das atividades desenvolvidas em sala de aula
 
 
-```
 classDiagram
   class Usuario{
     - nome: String
     - endereço: String
     - numeroCell: int
     - chavePix: String
-    + criarConta: void
+    + criarConta(): void
     + inserir(): void
     + alterar(): void
     + deletar(): void
-    + encerrarConta: void
+    + encerrarConta(): void
   }
 
   class Entrega {
@@ -22,12 +21,12 @@ classDiagram
     - endereçoEntrega: String
     - tamanhoProduto: float
     - pesoProduto: float
-    + solicitarEntrega: void
+    + solicitarEntrega(): void
     + inserir(): void
     + alterar(): void
     + deletar(): void
-    + encerrarEntrega: void
+    + encerrarEntrega(): void
   }
 
   Usuario "1" -- "1..*" Entrega : tem
-```
+
