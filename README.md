@@ -1,7 +1,7 @@
 # EngenhariaDeSoftwareII-2.2023-Prof_AnaCelia
 Repositorio destinado a entrega das atividades desenvolvidas em sala de aula
 
-
+``` mermaid
 classDiagram
   class Usuario{
     - nome: String
@@ -30,3 +30,4 @@ classDiagram
 
   Usuario "1" -- "1..*" Entrega : tem
 
+```
