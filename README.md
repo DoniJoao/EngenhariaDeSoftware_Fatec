@@ -30,8 +30,7 @@ classDiagram
 
   Usuario "1" -- "1..*" Entrega : tem
 
-```
-``` mermaid
+
 
 graph TD
     subgraph RegistrarCliente
