@@ -31,4 +31,6 @@ classDiagram
   Usuario "1" -- "1..*" Entrega : tem
 
 ```
+
+##Diagrama de Atividades
 <img src="DiagramaAtividade-RapidLogistica-17-10-2023.png">
