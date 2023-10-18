@@ -37,7 +37,7 @@ Diagrama de Atividades
 <img src="DiagramaAtividade-RapidLogistica-17-10-2023.png">
 
 
-Diagram de Caso de Uso
+Diagrama de Caso de Uso
 
 
 <img src="Diagrama de Classes.drawio.png">
